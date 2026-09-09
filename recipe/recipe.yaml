@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: fioblisswriter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/fioblisswriter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 68ede9a60415ea8c24a02d447ce7f30f7a0d0898a2b83edfacc8f42aedbe379b
+  sha256: 35fe81c6ccf1fa8bd4449011607f4d9647e9737ed51d35f373e463e56bfed443
 
 build:
   noarch: python
@@ -47,7 +47,7 @@ tests:
 
 
 about:
-  homepage: https://nexdatas.github.io/fioblisswriter 
+  homepage: https://nexdatas.github.io/fioblisswriter
   repository: https://github.com/nexdatas/fioblisswriter
   license: GPL-3.0-or-later
   license_file: COPYRIGHT
