@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.0"
+  version: "0.5.0"
 
 package:
   name: fioblisswriter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/fioblisswriter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 35fe81c6ccf1fa8bd4449011607f4d9647e9737ed51d35f373e463e56bfed443
+  sha256: edf5f910a686a0e4fc3b946481d14e75f630fce27afcfec0eb0e300790dbc784
 
 build:
   noarch: python
